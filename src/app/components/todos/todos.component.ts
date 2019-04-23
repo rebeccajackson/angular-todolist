@@ -7,7 +7,7 @@ import { Todo } from '../../models/Todo'
   styleUrls: ['./todos.component.css']
 })
 export class TodosComponent implements OnInit {
-  todos:Todo[]
+  todos: Todo[];
 
   constructor() { }
 
@@ -28,7 +28,7 @@ export class TodosComponent implements OnInit {
         title: 'Todo Three',
         completed: false
       },
-    ]
+    ];
   }
 
 }
